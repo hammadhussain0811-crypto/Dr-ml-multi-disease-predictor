@@ -1,4 +1,3 @@
-
 import logging
 from pathlib import Path
 
@@ -45,6 +44,7 @@ def predict_disease(disease: str, input_data: dict):
         raise ValueError("Invalid disease type. Use 'diabetes' or 'heart_disease'")
     
     X_df = pd.DataFrame([input_data])
+    X_df = replace_zeros_with_nan(X_df)
 
     prediction = int(model.predict(X_df)[0])
 

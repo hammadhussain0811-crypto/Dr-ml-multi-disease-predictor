@@ -54,7 +54,7 @@ if st.button("🔍 Predict", use_container_width=True):
     }
 
     try:
-        response = requests.post(API_URL, json=payload, timeout=20)
+        response = requests.post(API_URL, json=payload, timeout=60)
         response.raise_for_status()
     except requests.RequestException as e:
         st.error("Unable to reach prediction service.")

@@ -171,13 +171,13 @@ The frontend communicates with the deployed FastAPI backend through REST APIs to
 <h3> Heart Disease Prediction</h3>
 
 <p align="center">
-    <img src="images/Heart_disease_prediction.png" width="750">
+    <img src="images/Heart_disease_prediction_page.png" width="750">
 </p>
 
 <h3> Diabetes Prediction</h3>
 
 <p align="center">
-    <img src="images/Diabetes_prediction.png" width="750">
+    <img src="images/Diabetes_prediction_page.png" width="750">
 </p>
 
 <h3> Prediction Result</h3>

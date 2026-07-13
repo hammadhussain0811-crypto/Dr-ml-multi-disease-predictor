@@ -4,13 +4,15 @@ An end-to-end machine learning application that predicts the risk of **Heart Dis
 
 ## Live Demo
   
-  **Frontend:**  
+
+
+  🔹 **Web Application:**  
   https://dr-ml-multi-disease-predictor.streamlit.app
   
-  **Backend API:**  
+  🔹 **Backend API:**  
   https://dr-ml-multi-disease-predictor.onrender.com
   
-  **API Documentation:**  
+  🔹 **API Documentation (Swagger):**  
   https://dr-ml-multi-disease-predictor.onrender.com/docs
 
 ## Project Overview
@@ -80,7 +82,7 @@ Dr-ML is a multi-disease prediction system designed using a scalable and modular
 
 ## Project Structure
 
-
+```text
 Dr-ML-Multi-Disease-Predictor/
 │
 ├── src/
@@ -111,7 +113,7 @@ Dr-ML-Multi-Disease-Predictor/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
+```
 
 ## Machine Learning Workflow
 
@@ -160,19 +162,39 @@ The best-performing models were selected using cross-validation and hyperparamet
 
 The frontend communicates with the deployed FastAPI backend through REST APIs to provide real-time disease predictions.
 
----
 
 ## Screenshots
 
-Include screenshots of:
+<h3> Home Page</h3>
 
-- Home Page
-- Heart Disease Prediction
-- Diabetes Prediction
-- Prediction Results
-- FastAPI Swagger Documentation
+<p align="center">
+    <img src="images/Home_Page.png" width="750">
+</p>
 
----
+<h3> Heart Disease Prediction</h3>
+
+<p align="center">
+    <img src="images/Heart_disease_prediction.png" width="750">
+</p>
+
+<h3> Diabetes Prediction</h3>
+
+<p align="center">
+    <img src="images/Diabetes_prediction.png" width="750">
+</p>
+
+<h3> Prediction Result</h3>
+
+<p align="center">
+    <img src="images/result_of_diabetes.png" width="750">
+    <img src="images/result_of_heart_disease.png" width="750">    
+</p>
+
+<h3>📄 API Documentation</h3>
+
+<p align="center">
+    <img src="images/fast_api_swagger_ui.png" width="750">
+</p>
 
 ## Running Locally
 

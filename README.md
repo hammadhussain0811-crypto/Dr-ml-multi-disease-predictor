@@ -187,7 +187,7 @@ The frontend communicates with the deployed FastAPI backend through REST APIs to
     <img src="images/result_of_heart_disease.png" width="750">    
 </p>
 
-<h3>📄 API Documentation</h3>
+<h3> API Documentation</h3>
 
 <p align="center">
     <img src="images/fast_api_swagger_ui.png" width="750">

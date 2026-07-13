@@ -9,9 +9,6 @@ An end-to-end machine learning application that predicts the risk of **Heart Dis
   🔹 **Web Application:**  
   https://dr-ml-multi-disease-predictor.streamlit.app
   
-  🔹 **Backend API:**  
-  https://dr-ml-multi-disease-predictor.onrender.com
-  
   🔹 **API Documentation (Swagger):**  
   https://dr-ml-multi-disease-predictor.onrender.com/docs
 
